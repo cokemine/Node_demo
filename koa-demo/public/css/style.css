@@ -1,0 +1,42 @@
+html {
+    font-size: 16px;
+}
+
+#container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+
+#container:after {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+#main {
+    padding: 15rem;
+    display: inline-block;
+    vertical-align: middle;
+    border: #ee6e73 3px solid;
+    border-radius: 3%;
+    box-shadow: 0 0 12px red inset;
+}
+
+#main h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+#main a {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    color: #ee6e73;
+}
